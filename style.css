@@ -1,0 +1,30 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;  
+  background-position:center;
+ 
+  
+}
+table{
+    
+    border-color: rgba(83, 159, 189, 0.5);
+}
+
+hr{
+    border-color: lightblue;
+    
+}
+p{
+    padding: 50px 50px 50px 50px;
+    margin: 30px 50px 30px 50px;
+}
+h1{
+    color:darkblue ;
+    text-shadow: 1px 1px 1px rgb(60, 96, 170),
+               2px 2px 1px rgb(19, 23, 82);
+}
+h2{
+    color: rgb(190, 202, 144);
+    text-shadow: 1px 1px 1px rgb(100, 99, 46),
+               2px 2px 1px rgb(0, 0, 0);
+}
