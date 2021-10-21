@@ -5,6 +5,12 @@ body{
  
   
 }
+button{
+    background-color: rgba(0, 0, 0, 0.336);
+    color: rgb(255, 255, 255);
+    margin-right: 50px;
+    margin-left: 450px;
+}
 table{
     
     border-color: rgba(83, 159, 189, 0.5);
@@ -28,3 +34,16 @@ h2{
     text-shadow: 1px 1px 1px rgb(100, 99, 46),
                2px 2px 1px rgb(0, 0, 0);
 }
+/* unvisited link */
+a:link {
+    color: rgb(9, 92, 218);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(130, 15, 153);
+    text-decoration: none;
+  }
+  
+ 
