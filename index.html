@@ -6,8 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ece Hasanoglu</title>
+    <script>
+        function myFunction(bgImage) {
+            document.body.style.backgroundImage = "url(" + bgImage + ")";
+
+        }
+    </script>
 </head>
-<body>
+<body id="body">
+    <button onclick="myFunction('background.jpg')">Light</button>
+    <button onclick="myFunction('darkbackground.jpg')">Dark</button>
     <hr>
     <center><h1>Ece Hasanoglu</h1></center>
     <hr/>
